@@ -21,7 +21,7 @@ export function getQuery(url, paramName) {
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/vite-react-router/",
     element: <ParentLayout />,
     children: [
       {

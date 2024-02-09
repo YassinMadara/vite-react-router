@@ -9,7 +9,7 @@ function PostList() {
   return (
     <div className="container">
       <h1 className="page-title">
-        Posts - {posts.length}{" "}
+        Github Posts - {posts.length}{" "}
         <div className="title-btns">
           <Link className="btn btn-outline" to="new">
             New
