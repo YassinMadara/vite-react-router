@@ -6,7 +6,7 @@ export default function ErrorPage() {
     <>
       <h2>
         Error - Something went wrong - Go {}
-        <Link className="btn" to={".."} relative="route">
+        <Link className="btn" to={"/vite-react-router/"} relative="route">
           Home
         </Link>
       </h2>

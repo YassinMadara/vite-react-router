@@ -54,8 +54,8 @@ async function action({ params: { postId }, request }) {
     { signal: request.signal }
   );
 
-  // return redirect(`/posts/${post.id}`);
-  return redirect(`/vite-react-router/`);
+  return redirect(`/vite-react-router/posts/${post.id}`);
+  // return redirect(`/vite-react-router/posts`);
   // return redirect(`/`);
 }
 
