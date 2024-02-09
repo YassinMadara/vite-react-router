@@ -51,7 +51,7 @@ async function action({ params: { postId }, request }) {
   const post = await updatePost(
     postId,
     { title, userId, body },
-    { signal: request.signal }
+    { signal: request.signal, headers: { "Content-Type": "application/json" } }
   );
 
   return redirect(`/vite-react-router/posts/${post.id}`);

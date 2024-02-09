@@ -8,7 +8,7 @@ export default function PostComponent({ posts }) {
         <div className="card-preview-text">{p.body} </div>
       </div>
       <div className="card-footer">
-        <Link className="btn" to={`/posts/${p.id}`}>
+        <Link className="btn" to={`posts/${p.id}`}>
           View
         </Link>
       </div>
