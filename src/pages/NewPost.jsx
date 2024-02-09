@@ -42,7 +42,8 @@ async function action({ request }) {
     { title, body, userId },
     { signal: request.signal }
   );
-  return redirect(`/posts/${post.id}`);
+  return redirect(`/vite-react-router/`);
+  // return redirect(`/posts/${post.id}`);
   // return redirect(`/`);
   // return <Navigate to={`/posts/${post.id}`} replace={true} />;
 }

@@ -11,7 +11,7 @@ export default function PostForm({
   const navigate = useNavigate();
   async function deleting() {
     await deletePost(post.id);
-    return navigate("/");
+    return navigate("/vite-react-router/");
   }
 
   return (
