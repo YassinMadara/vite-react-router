@@ -40,7 +40,7 @@ async function action({ request }) {
 
   const post = await createPost(
     { title, body, userId },
-    { signal: request.signal }
+    { signal: request.signal, headers: { "Content-Type": "application/json" } }
   );
   // return redirect(`/vite-react-router/posts`);
   return redirect(`/vite-react-router/posts/${post.id}`);
